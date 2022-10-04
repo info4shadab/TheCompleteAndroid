@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BirthdayGreetings</string>
+    <string name="contentDesc">Birthday Image Reference</string>
+    <string name="greeter">Enter you name!</string>
+    <string name="hintText">Shadab</string>
+    <string name="ButtonText">Greet Me now</string>
+    <string name="contentimage">GIF Image cake</string>
+</resources>
