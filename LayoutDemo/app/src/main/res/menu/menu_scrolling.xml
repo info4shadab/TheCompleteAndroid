@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shadab.LayoutDemo.layouts.ScrollingActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/save"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/load"
+        android:title="Load"/>
+
+    <item
+        android:id="@+id/neww"
+        android:title="New" />
+
+</menu>

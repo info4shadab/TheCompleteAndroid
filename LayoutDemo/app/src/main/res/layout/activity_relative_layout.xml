@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layouts.relativeLayout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/firstView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_text1"
+            android:background="@color/purple_200"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/secondView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_text2"
+            android:background="@color/teal_200"
+            android:layout_below="@id/firstView"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/thirdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_text3"
+            android:background="@color/teal_700"
+            android:layout_toEndOf="@id/firstView"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/fourthView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_text4"
+            android:background="@color/purple_700"
+            android:layout_toEndOf="@id/secondView"
+            android:layout_below="@id/thirdView"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/fifthView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fourthView"
+            android:layout_toEndOf="@id/secondView"
+            android:background="#FFEB3B"
+            android:text="@string/new_text5"
+            android:textSize="24sp" />
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
