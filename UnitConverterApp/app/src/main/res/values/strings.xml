@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UnitConverterApp</string>
+    <string name="BackgroundDescription">This is app background</string>
+    <string name="helper_text">Enter the weight in KG</string>
+    <string name="hintString">0 kg</string>
+    <string name="buttonText">Convert</string>
+    <string name="outputString">Pounds</string>
+    <string name="outputHint">0 lbs</string>
+</resources>
